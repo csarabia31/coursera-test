@@ -1,0 +1,92 @@
+*{
+	box-sizing: border-box;
+	font-family: times new roman;
+}
+
+header {
+	text-align: center;
+	
+}
+
+.box1, .box2, .box3{
+
+		border:1px solid black;
+		padding-top: 30px;
+		text-align: center;
+		padding-right: 5px;
+		padding-left: 5px;
+		padding-bottom: 20px;
+		background-color: lightgrey;
+		position: relative;
+		margin:1%;
+
+	}
+
+.topsection{
+
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	background-color: grey;
+	width:20%;
+	height: 20%;
+	position: absolute;
+	top:0;
+	right:0;
+	background-color: yellow;
+
+}
+
+.topsection2{
+
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	background-color: grey;
+	width:20%;
+	height: 20%;
+	position: absolute;
+	top:0;
+	right:0;
+	background-color: lightblue;
+
+
+}
+
+.topsection3{
+
+	border-left: 1px solid black;
+	border-bottom: 1px solid black;
+	background-color: grey;
+	width:20%;
+	height: 20%;
+	position: absolute;
+	top:0;
+	right:0;
+	background-color: lightgreen;
+
+}
+@media (min-width: 992px){
+	
+	
+	.col-4{
+		float:left;
+		width:30%;
+
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+	.box1, .box2 {
+		width: 48%;
+		float:left;
+	}
+	.box3{
+		float:left;
+		width:98%;
+	}
+}
+
+@media (max-width: 767px){
+	.box1, .box2, .box3{
+		width: 98%;
+	}
+}
